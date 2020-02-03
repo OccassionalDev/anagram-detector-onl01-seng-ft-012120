@@ -21,6 +21,8 @@ class Anagram
        list_anagrams << given_word
      end 
    end 
+   
+    return list_anagrams
   end 
   
   
