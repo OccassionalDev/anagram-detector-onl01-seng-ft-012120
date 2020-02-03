@@ -11,7 +11,9 @@ class Anagram
      word_letters = @word.split("").sort
      
      given_word_list.each do |word_value|
-      if word_value.split("").sort == word_letters
+       split_value = word_value.split("").sort
+       
+      if split_value == word_letters
         return word_value
       end 
     end 
