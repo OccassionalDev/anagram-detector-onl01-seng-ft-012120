@@ -8,7 +8,7 @@ class Anagram
   end 
   
   def detector(given_word_list)
-     word_letters = @word.split("").sort
+     given_word_list.select {
      
  
   end 
