@@ -18,11 +18,11 @@ class Anagram
      
      #Step 2: If the word matches, add it to the anagram list
      if given_word_letters == word_letters
-       list_anagrams << given_word
+       list_of_anagrams << given_word
      end 
    end 
    
-    return list_anagrams
+    return list_of_anagrams
   end 
   
   
