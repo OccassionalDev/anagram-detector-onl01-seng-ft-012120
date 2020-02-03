@@ -15,6 +15,8 @@ class Anagram
         return word_value
       end 
     end 
+    
+    return false
   end 
   
   
