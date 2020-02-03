@@ -8,7 +8,9 @@ class Anagram
   end 
   
   def detector(given_word_list)
-     given_word_list.select {
+   given_word_list.select do |letters|
+     
+   end 
      
  
   end 
