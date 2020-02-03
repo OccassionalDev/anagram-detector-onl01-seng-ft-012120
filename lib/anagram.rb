@@ -11,8 +11,6 @@ class Anagram
    given_word_list.select do |letters|
      
    end 
-     
- 
   end 
   
   
