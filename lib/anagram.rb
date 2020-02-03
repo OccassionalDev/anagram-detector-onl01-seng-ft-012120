@@ -14,6 +14,7 @@ class Anagram
       if word_value.split("").sort == word_letters
         return word_value
       end 
+    end 
   end 
   
   
