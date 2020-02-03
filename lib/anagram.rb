@@ -24,6 +24,4 @@ class Anagram
    
     return list_of_anagrams
   end 
-  
-  
 end 
